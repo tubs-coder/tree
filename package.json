@@ -43,7 +43,7 @@
     "test": "father test",
     "coverage": "father test --coverage",
     "gh-pages": "npm run docs:build && father doc deploy",
-    "now-build": "set NODE_OPTIONS=--openssl-legacy-provider & npm run docs:build"
+    "now-build": "set NODE_OPTIONS=--openssl-legacy-provider && npm run docs:build"
   },
   "peerDependencies": {
     "react": "*",
